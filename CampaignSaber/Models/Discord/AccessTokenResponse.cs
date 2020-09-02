@@ -11,7 +11,7 @@ namespace CampaignSaber.Models.Discord
         public string TokenType { get; set; }
 
         [JsonPropertyName("expires_in")]
-        public uint Exiration { get; set; }
+        public uint Expiration { get; set; }
 
         [JsonPropertyName("refresh_token")]
         public string RefreshToken { get; set; }

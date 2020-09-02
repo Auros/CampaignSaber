@@ -1,0 +1,28 @@
+@import '~bulma/sass/utilities/initial-variables';
+
+$safety-orange: #FF6700;
+$charcoal: #2E4052;
+$screamin-green: #35FF69;
+$red-violet: #AF4D98;
+$falu-red: #81171B;
+
+$primary: $safety-orange;
+$info: $charcoal;
+$success: $screamin-green;
+$warning: $red-violet;
+$danger: $falu-red;
+
+$body-background-color: #454545;
+
+$dimensions: 16 24 32 48 64 96 128 192 256 512;
+
+@import '~bulma/sass/utilities/_all.sass';
+
+@import '~bulma/sass/base/_all';
+@import '~bulma/sass/form/_all.sass';
+@import '~bulma/sass/grid/_all.sass';
+@import '~bulma/sass/layout/_all.sass';
+@import '~bulma/sass/helpers/_all.sass';
+@import '~bulma/sass/elements/_all.sass';
+@import '~bulma/sass/utilities/_all.sass';
+@import '~bulma/sass/components/_all.sass';

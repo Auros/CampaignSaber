@@ -1,6 +1,6 @@
 ﻿namespace CampaignSaber.Models.Settings
 {
-    public class JWTSettings
+    public class JWTSettings : IJWTSettings
     {
         public string Key { get; set; }
         public string Issuer { get; set; }
